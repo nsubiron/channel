@@ -23,6 +23,16 @@
       ]
     },
     {
+      "name": "QMakeProject",
+      "details": "https://github.com/nsubiron/sublime-qmakeproject-syntax",
+      "releases": [
+        {
+          "sublime_text": "*",
+          "details": "https://github.com/nsubiron/sublime-qmakeproject-syntax/tags"
+        }
+      ]
+    },
+    {
       "name": "TodoTxt++",
       "details": "https://github.com/nsubiron/sublime-todotxt",
       "releases": [
