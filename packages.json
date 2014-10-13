@@ -33,6 +33,16 @@
       ]
     },
     {
+      "name": "Theme - Solarized Space",
+      "details": "https://github.com/nsubiron/sublime-theme-solarized-space",
+      "releases": [
+        {
+          "sublime_text": "*",
+          "details": "https://github.com/nsubiron/sublime-theme-solarized-space/tags"
+        }
+      ]
+    },
+    {
       "name": "TodoTxt++",
       "details": "https://github.com/nsubiron/sublime-todotxt",
       "releases": [
