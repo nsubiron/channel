@@ -1,56 +1,39 @@
 {
-  "schema_version": "2.0",
-
-  "packages": [
-    {
-      "name": "Suricate Commands",
-      "details": "https://github.com/nsubiron/SublimeSuricate",
-      "releases": [
-        {
-          "sublime_text": "*",
-          "details": "https://github.com/nsubiron/SublimeSuricate/tags"
-        }
-      ]
-    },
-    {
-      "name": "Suricate Commands (dev)",
-      "details": "https://github.com/nsubiron/SublimeSuricate/tree/dev",
-      "releases": [
-        {
-          "sublime_text": "*",
-          "details": "https://github.com/nsubiron/SublimeSuricate/tree/dev"
-        }
-      ]
-    },
-    {
-      "name": "QMakeProject",
-      "details": "https://github.com/nsubiron/sublime-qmakeproject-syntax",
-      "releases": [
-        {
-          "sublime_text": "*",
-          "details": "https://github.com/nsubiron/sublime-qmakeproject-syntax/tags"
-        }
-      ]
-    },
-    {
-      "name": "Theme - Solarized Space",
-      "details": "https://github.com/nsubiron/sublime-theme-solarized-space",
-      "releases": [
-        {
-          "sublime_text": "*",
-          "details": "https://github.com/nsubiron/sublime-theme-solarized-space/tags"
-        }
-      ]
-    },
-    {
-      "name": "TodoTxt++",
-      "details": "https://github.com/nsubiron/sublime-todotxt",
-      "releases": [
-        {
-          "sublime_text": "*",
-          "details": "https://github.com/nsubiron/sublime-todotxt/tags"
-        }
-      ]
-    }
-  ]
+	"schema_version": "3.0.0",
+	"packages": [
+		{
+			"name": "Suricate",
+			"previous_names": ["Suricate Commands"],
+			"details": "https://github.com/nsubiron/SublimeSuricate",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"branch": "master",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "SuricateDev",
+			"previous_names": ["Suricate Commands (dev)"],
+			"details": "https://github.com/nsubiron/SublimeSuricate/tree/dev",
+			"releases": [
+				{
+					"sublime_text": ">=3000",
+					"base": "https://github.com/nsubiron/SublimeSuricate",
+					"branch": "dev"
+				}
+			]
+		},
+		{
+			"name": "TodoTxt++",
+			"details": "https://github.com/nsubiron/sublime-todotxt",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		}
+	]
 }
