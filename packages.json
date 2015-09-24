@@ -2,18 +2,6 @@
 	"schema_version": "3.0.0",
 	"packages": [
 		{
-			"name": "Suricate",
-			"previous_names": ["Suricate Commands"],
-			"details": "https://github.com/nsubiron/SublimeSuricate",
-			"releases": [
-				{
-					"sublime_text": ">=3000",
-					"branch": "master",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "SuricateDev",
 			"previous_names": ["Suricate Commands (dev)"],
 			"details": "https://github.com/nsubiron/SublimeSuricate/tree/dev",
@@ -28,6 +16,16 @@
 		{
 			"name": "TodoTxt++",
 			"details": "https://github.com/nsubiron/sublime-todotxt",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Vintage Numbers (revisited)",
+			"details": "https://github.com/nsubiron/SublimeVintageNumbers",
 			"releases": [
 				{
 					"sublime_text": "*",
