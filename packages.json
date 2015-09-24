@@ -24,8 +24,8 @@
 			]
 		},
 		{
-			"name": "VimNumbers",
-			"details": "https://github.com/nsubiron/sublime-todotxt",
+			"name": "Vim Numbers",
+			"details": "https://github.com/nsubiron/sublime-vim-numbers",
 			"releases": [
 				{
 					"sublime_text": "*",
