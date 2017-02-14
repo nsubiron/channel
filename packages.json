@@ -32,6 +32,15 @@
 					"tags": true
 				}
 			]
+		},
+		{
+			"name": "Dictionaries",
+			"details": "https://github.com/titoBouzout/Dictionaries",
+			"releases": [
+				{
+					"sublime_text": "*"
+				}
+			]
 		}
 	]
 }
