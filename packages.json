@@ -38,7 +38,8 @@
 			"details": "https://github.com/titoBouzout/Dictionaries",
 			"releases": [
 				{
-					"sublime_text": "*"
+					"sublime_text": "*",
+					"branch": "master"
 				}
 			]
 		}
